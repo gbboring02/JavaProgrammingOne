@@ -2,7 +2,19 @@ package Chapter8;
 
 import java.util.Scanner;
 
+/**
+ * Program to display amount of a sale and the day and ID of salesmen
+ * 
+ * @author Garrett Boring
+ */
+
 public class P8 {
+    
+    /**
+     * Main Method
+     * 
+     * @param args arguments from command line prompt
+     */
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

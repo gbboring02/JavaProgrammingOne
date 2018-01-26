@@ -1,6 +1,18 @@
 package Chapter8;
 
+/**
+ * Program to display the chart
+ * 
+ * @author Garrett Boring
+ */
+
 public class C8_4 {
+    
+    /**
+     * MAin Method 
+     * 
+     * @param args arguments from command line prompt
+     */
 
     public static void main(String[] args) {
         int counter = 0;

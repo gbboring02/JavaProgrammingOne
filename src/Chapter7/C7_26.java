@@ -2,8 +2,20 @@ package Chapter7;
 
 import java.util.Scanner;
 
+/**
+ * Program to display whether the lists are the same or not.
+ * 
+ * @author Garrett Boring
+ */
+
 public class C7_26 {
 
+/**
+ * Main Method
+ * 
+ * @param args arguments from command line prompt 
+ */
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

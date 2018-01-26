@@ -2,7 +2,19 @@ package Chapter7;
 
 import java.util.Scanner;
 
+/**
+ * Program to display ten numbers and the minimum
+ * 
+ * @author Garrett Boring
+ */
+
 public class C7_9 {
+    
+    /**
+     * Main Method
+     * 
+     * @param args arguments from command line prompt
+     */
 
     public static void main(String[] args) {
         System.out.print("Enter ten numbers: ");
@@ -16,6 +28,13 @@ public class C7_9 {
         System.out.println("The minimum number is: " + min(numbers));
     }
 
+    /**
+     * Second method
+     * 
+     * @param array arguments from command line prompt
+     * @return minimum
+     */
+    
     public static double min(double[] array) {
 
         double min = array[0];
