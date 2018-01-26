@@ -4,18 +4,16 @@ import java.util.Scanner;
 
 /**
  * Program to display whether the lists are the same or not.
- * 
+ *
  * @author Garrett Boring
  */
-
 public class C7_26 {
 
-/**
- * Main Method
- * 
- * @param args arguments from command line prompt 
- */
-    
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -36,6 +34,15 @@ public class C7_26 {
         }
     }
 
+    /**
+     * Second Method
+     *
+     * @param list1 is a list of numbers and you see if it is identical to the
+     * other list
+     * @param list2 is a list of numbers and you see if it is identical to the
+     * other list
+     * @return true
+     */
     public static boolean equals(int[] list1, int[] list2) {
         if (list1.length != list2.length) {
             return false;

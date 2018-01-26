@@ -4,18 +4,16 @@ import java.util.*;
 
 /**
  * Program to display employees and days of the week
- * 
+ *
  * @author Garrett Boring
  */
-
 public class P7 {
-    
+
     /**
      * Main Method
-     * 
-     * @param args arguments from command line prompt 
+     *
+     * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         int[][] weekHours
                 = {
@@ -44,10 +42,10 @@ public class P7 {
 
     /**
      * Second Method
+     *
      * @param m arguments from command line prompt
      * @return sum
      */
-    
     public static int[] sumRows(int[][] m) {
         int[] sum = new int[m.length];
         for (int row = 0; row < m.length; row++) {

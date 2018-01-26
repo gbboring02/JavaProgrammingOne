@@ -4,17 +4,16 @@ import java.util.Scanner;
 
 /**
  * Program to display the number of students and their scores
- * 
+ *
  * @author Garrett Boring
  */
 public class C7_1 {
-    
+
     /**
      * Main Method
-     * 
-     * @param args arguments from command line prompt 
+     *
+     * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         System.out.print("Enter the number of students dude: ");
         Scanner input = new Scanner(System.in);
